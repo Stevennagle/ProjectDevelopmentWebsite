@@ -1,2 +1,2 @@
 # Project-Development-Website
-stevenagle.dev - A staging area of Work-In-Progress code.
+stevenagle.dev - A deployed staging area for Work-In-Progress code.
