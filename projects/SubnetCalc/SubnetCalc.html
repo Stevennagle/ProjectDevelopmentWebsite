@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="SubnetCalc.css">
+        <title>CIDR Subnet Calc</title>
+        <!--/*SubnetCalc*/-->
+    </head>
+    <body>
+        <div class="container">
+            <form id="form" class="form">
+                <h1 class="topic">Subnet Calculator</h1>
+                <h4 class="topic"> <a href="https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html#anc13" target="_blank" class="label">CIDR Explained</a></h4>
+                <!-- IP -->
+                <div class="form-control">
+                    <label for="ip">IPv4: </label>
+                    <input type="text" id="ip" placeholder="Example: 42.2.60.0/8 or 42.2.60.0">
+                    <small class="message" id="or"></small>
+                    <small class="error" id="ip"></small>
+                </div>
+
+                <!-- Subnet Mask or /CIDR# -->
+                <div class="form-control">
+                    <label for="mask">Subnet Mask: </label>
+                    <input type="text" id="mask" placeholder="Example: /8 or 255.0.0.0">
+                    <small  class="error" id="mask"><!--Masking Error--></small>
+                </div>
+                <button>Submit</button>  
+                
+                <!-- Network ID -->
+
+                <!-- First Available Host IP -->
+
+                <!-- Broadcast ID -->
+
+                <!-- Last Available Host IP -->
+
+                <!-- Hosts Per Subnet -->
+
+                <!-- Total Number of Subnets -->
+
+                <!-- Total Number of Hots -->
+
+                <!-- Magic Number -->
+
+                <!-- Interesting Octet -->
+                <button>Submit</button>                
+            </form>    
+        </div>
+    </body>
+</html>
